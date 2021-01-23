@@ -4,7 +4,7 @@
 </head>
 <body>
     <form action="?page=authenticate&sid=<?php echo $sid;?>" method="post">
-        <label>Lietotajs</label>
+        <label>Lietotājs</label>
         <input type="text" name="username">
         <label>Parole</label>
         <input type="password" name="password">
