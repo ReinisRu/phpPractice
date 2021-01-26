@@ -1,13 +1,12 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<title>Uzdevumu saraksts</title>
+<title>To Do list</title>
 <link rel="stylesheet" href="style.css" />
 
 <?php include "../bootcamp_app/components/navigation.php"; ?>
 
-<h1>todo page</h1>
-<a href="?page=logout">logout</a>
+<h3>To Do list</h3>
 
 <form action="" class="new-task">
       <textarea name="task" required></textarea>
