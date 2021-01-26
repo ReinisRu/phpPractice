@@ -25,6 +25,12 @@ if (isset($_SESSION['username'], $_SESSION['password']) &&
         elseif ($_GET['page'] === "contacts") {
             $page_name = "contacts";
         }
+        elseif ($_GET['page'] === "request") {
+            $page_name = "request";
+        }
+        elseif ($_GET['page'] === "test_request") {
+            $page_name = "test_request";
+        }     
         else {
             $page_name = "page404";
         }
@@ -52,7 +58,3 @@ else {
 include "../bootcamp_app/pages/" . $page_name . ".php";
 
 ?>
-
-
-
-

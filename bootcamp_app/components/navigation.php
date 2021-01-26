@@ -1,6 +1,6 @@
-<head>
+<!-- <head>
     <link rel="stylesheet" href="style.css">
-</head>
+</head> -->
 <nav>
   <a href="<?php get_url() ?>">Todo</a>
   <a href="<?php get_url('?page=contacts'); ?>">Contacts</a>
