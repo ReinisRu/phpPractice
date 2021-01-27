@@ -18,6 +18,7 @@ else {
 }
 
 
+
 function update($todos) {
     $file_name = 'json_database.json';
     file_put_contents($file_name, json_encode($todos));
