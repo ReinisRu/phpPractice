@@ -20,7 +20,7 @@
 
 <script>
  document.getElementById('test-request').addEventListener('submit', function(e) {
-    e.preventDefault()
+    e.preventDefault();
     let form = this;
     
     $.ajax({
