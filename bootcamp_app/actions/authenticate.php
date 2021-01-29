@@ -16,4 +16,4 @@ else {
     header("Location: index.php?page=login");
 }
 
-file_put_contents('error.log', json_encode($_REQUEST));
+file_put_contents('../bootcamp_app/error.log', json_encode($_REQUEST));
