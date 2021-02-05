@@ -8,5 +8,6 @@
   <a href="<?php get_url("?page=logout") ?>">Logout</a>
   <a href="<?php get_url('?page=request'); ?>">(request)</a> <!-- Remove after testing -->
   <a href="<?php get_url('?page=test_request'); ?>">(test_request)</a> <!-- Remove after testing -->
+  <a href="<?php get_url('?page=db_test'); ?>">(DB test)</a> <!-- Remove after testing -->
 </nav>
 
