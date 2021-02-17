@@ -36,6 +36,17 @@ if (
     }
 }
 
+if (
+    array_key_exists('mark-done', $_REQUEST) &&
+    array_key_exists('status', $_REQUEST)
+) {
+    $id = $_REQUEST['mark-done'];
+    $status = $_REQUEST['status'];
+    if ((int) $id == $id && $status === '0' || $status === '1') {
+        $todo->update($id, ['status' => $status]);
+    }
+}
+
 include "view.php";
 
 function testText($text) {
