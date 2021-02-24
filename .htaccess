@@ -1,10 +1,10 @@
 RewriteEngine on
 
+RewriteCond %{REQUEST_URI} !^/tictactoe_app/
+RewriteRule (.*) /tictactoe_app/$1 [L]
 
-RewriteEngine on
-
-RewriteCond %{REQUEST_URI} !^/todo-php/
-RewriteRule (.*) /todo-php/$1 [L]
+#RewriteCond %{REQUEST_URI} !^/todo-php/
+#RewriteRule (.*) /todo-php/$1 [L]
 
 #RewriteCond %{REQUEST_URI} !^/public/
 #RewriteRule (.*) /public/$1 [L]
